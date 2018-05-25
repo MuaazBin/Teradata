@@ -1,0 +1,12 @@
+﻿CREATE SET TABLE DATABASE_NAME.TABLE_NAME,FALLBACK 
+( 
+      EmployeeNo INTEGER, 
+      FirstName VARCHAR(30) , 
+      LastName VARCHAR(30) , 
+      DOB DATE FORMAT 'YYYY-MM-DD', 
+      JoinedDate DATE FORMAT 'YYYY-MM-DD', 
+      DepartmentNo BYTEINT 
+ ) 
+UNIQUE PRIMARY INDEX ( EmployeeNo ); 
+
+DROP TABLE DATABASE_NAME.TABLE_NAME
